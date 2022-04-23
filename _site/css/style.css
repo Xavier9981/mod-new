@@ -80,7 +80,6 @@ h6 {
 a {
   color: #8300ff;
   text-decoration: none;
-  word-break: break-all;
 }
 
 img {
@@ -879,6 +878,10 @@ nav .navbar .links li:hover {
 
 .text-body-content-box--orange-box {
   margin: auto;
+}
+
+.text-body-content-box--orange-box a {
+  word-break: break-all;
 }
 
 .info-card {
