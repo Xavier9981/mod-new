@@ -37,16 +37,14 @@
     </script>
   </head>
   <body> 
-      {% include 'header.njk' %} 
-      {% include 'nav.njk' %}
-      <main> 
-      {{ content | safe }}
-      </main> 
-      {%include 'footer.njk' %}
-  </body>    
-<script src="/script/mini-slides-show-script.js"></script>
-<script src="/script/nav-responsive-script.js"></script>
-<script src="/script/slides-show-script.js"></script>
-<script src="/script/auto-slides-show-script.js"></script>
-<script src="/script/table-search.js"></script>
+    {% include 'header.njk' %} 
+    {% include 'nav.njk' %}
+    <main> 
+    {{ content | safe }}
+    </main> 
+    {%include 'footer.njk' %}
+  </body>
+
+  <!-- responsive navigation js -->
+  <script src="/script/nav-responsive-script.js"></script>
 </html>
