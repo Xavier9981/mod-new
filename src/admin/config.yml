@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+media_folder: "_site/assets/images/post-images"
+public_folder: "/assets/images/post-images"
+
+collections:
+  - name: "latest-news"
+    label: "Latest News"
+    folder: "src/pages/articles/latest-news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Tags (Add `lnsNew` for the post to show on the home page.)",
+          name: "tags",
+          widget: "list",
+          default: ["lnsAll"],
+        }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "latest-speeches-and-press-releases"
+    label: "Latest Speeches and Press Releases"
+    folder: "src/pages/articles/latest-speeches-and-press-releases"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Tags (Add `lsprNew` for the post to show on the home page.)",
+          name: "tags",
+          widget: "list",
+          default: ["lsprAll"],
+        }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "featured-videos"
+    label: "Featured Videos"
+    folder: "src/pages/articles/featured-videos"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Paste emded youtube link", name: "link", widget: "string" }
+      - {
+          label: "Tags (Add `fvNew` for the post to show on the home page.)",
+          name: "tags",
+          widget: "list",
+          default: ["fvAll"],
+        }

@@ -1,0 +1,79 @@
+---json
+{ 
+  "title": "All the Zambian Ministries",
+  "layout": "regular-page.njk",
+  "pagination":{
+    "data": "externalLinks",
+    "size": 5,
+    "alias": "externalLinks"
+  }
+}
+---
+
+<div>
+  <div class="input-box">
+    <div><label for="input">Search field:</label>
+    <input
+      type="text"
+      name="search"
+      id="myInput"
+      onkeyup="tableSearch()"
+      placeholder="Search by ministry name..."
+    /></div>
+  </div>
+  <div class="responsive-table-wrapper">
+    <table
+      class="table"
+      id="myTable"
+      data-filter-control="true"
+      data-show-search-clear-button="true"
+    >
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Ministry Name</th>
+          <th>Physical Address</th>
+          <th>Telephone Number</th>
+          <th>Website</th>
+          <th>Email Address</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for externalLink in externalLinks %}
+          <tr>
+            <td data-label="No.">{{ externalLink.Number }}</td>
+            <td data-label="Ministry Name">{{ externalLink.Name }}</td>
+            <td data-label="Physical Address">{{ externalLink.Address }}</td>
+            <td data-label="Telephone Number">
+              <span>Tel:</span><a href="tel:{{ externalLink.Telephone }}">{{ externalLink.Telephone }}</a>
+            </td>
+            <td data-label="Website">
+              <a href="{{ externalLink.Website }}" target="_blank"
+                >Visit site</a
+              >
+            </td>
+            <td data-label="Email Address">
+              <a href="mailto:{{ externalLink.Email }}">{{ externalLink.Email }}</a>
+            </td>
+          </tr>
+        {% endfor %}
+
+ 
+      </tbody>
+    </table>
+  </div>
+
+  <div id="output"></div>
+
+  {% set currentUrl %}{{ page.url }}{% endset %} 
+  <div class="pagination-box">
+    <ul>
+      <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&#8810;</a>{% endif %}</li>
+        {% for pageEntry in pagination.pages %}
+          <li><a {% if currentUrl === pagination.hrefs[loop.index0] %} aria-current="pagination" {% endif %} href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a></li>
+        {% endfor %}
+      <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">&#8811;</a>{% endif %}</li>
+    </ul>
+  </div>
+</div>

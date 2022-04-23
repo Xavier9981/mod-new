@@ -1,0 +1,330 @@
+[
+  {
+    "Number": 1,
+    "Name": "Western Provincial Administration",
+    "Address": "P.O. Box 910021, Mongu",
+    "Telephone": "+260964301396",
+    "Website": "https://www.wes.gov.zm",
+    "Email": "info@wes.gov.zm"
+  },
+  {
+    "Number": 2,
+    "Name": "State House",
+    "Address": "P.O. Box 30135, Independence Avenue, Lusaka,Zambia.",
+    "Telephone": "+260211265018",
+    "Website": "https://www.sh.gov.zm",
+    "Email": "info@sh.gov.zm"
+  },
+  {
+    "Number": 3,
+    "Name": "Southern Provincial Administration",
+    "Address": "P.O. Box 630013, Choma",
+    "Telephone": "+260213221665",
+    "Website": "https://www.sou.gov.zm",
+    "Email": "info@sou.gov.zm"
+  },
+  {
+    "Number": 4,
+    "Name": "Office of Vice President",
+    "Address": "Cabinet Office 4th Floor, Independence Avenue, P.O Box 50773, Lusaka, Zambia",
+    "Telephone": "+260211250827",
+    "Website": "https://www.ovp.gov.zm",
+    "Email": "info@ovp.gov.zm"
+  },
+  {
+    "Number": 5,
+    "Name": "Northern Provincial Administration",
+    "Address": "Office of the Permanent Secretary",
+    "Telephone": "+260421222005",
+    "Website": "https://www.nor.gov.zm",
+    "Email": "info@nor.gov.zm"
+  },
+  {
+    "Number": 6,
+    "Name": "North-Western Provincial Administration.",
+    "Address": "Office of the Permanent Secretary",
+    "Telephone": "+260218821766",
+    "Website": "https://www.nws.gov.zm",
+    "Email": "info@nws.gov.zm"
+  },
+  {
+    "Number": 7,
+    "Name": "Muchinga Provincial Administration",
+    "Address": "Office of the Permanent Secretary, P.O. Box 480137, Chinsali",
+    "Telephone": "+260214565068",
+    "Website": "https://muc.gov.zm",
+    "Email": "info@muc.gov.zm"
+  },
+  {
+    "Number": 8,
+    "Name": "Ministry of Youth, Sport and Child Development",
+    "Address": "P.O. Box 50195, Lusaka, Zambia",
+    "Telephone": "+260211224011",
+    "Website": "https://myscd.gov.zm",
+    "Email": "info@myscd.gov.zm"
+  },
+  {
+    "Number": 9,
+    "Name": "Ministry of Works and Supply",
+    "Address": "P.O Box 50236, Lusaka, Zambia",
+    "Telephone": "+260211256114",
+    "Website": "https://mws.gov.zm",
+    "Email": "info@mws.gov.zm"
+  },
+  {
+    "Number": 10,
+    "Name": "Ministry of Water Development, Sanitation and Environmental Protection",
+    "Address": "Government Complex, P.O. Box 36079, Lusaka, - 10101 Lusaka Zambia",
+    "Telephone": "+260211235359",
+    "Website": "https://www.mwdsep.gov.zm",
+    "Email": "info@mwdsep.gov.zm"
+  },
+  {
+    "Number": 11,
+    "Name": "Ministry of Transport and Communication",
+    "Address": "P.O Box 50065, Lusaka, Zambia",
+    "Telephone": "+260211251444",
+    "Website": "https://www.mtc.gov.zm",
+    "Email": "info@mtc.gov.zm"
+  },
+  {
+    "Number": 12,
+    "Name": "Ministry of Tourism and Arts",
+    "Address": "P.O Box 30055, Lusaka, Zambia",
+    "Telephone": "+260211223930",
+    "Website": "https://www.mota.gov.zm",
+    "Email": "info@mota.gov.zm"
+  },
+  {
+    "Number": 13,
+    "Name": "Ministry of National Guidance and Religious Affairs",
+    "Address": "New government complex, Nasser Road. P.O Box 50687, Lusaka, Zambia",
+    "Telephone": "+260211253485",
+    "Website": "https://www.mngra.gov.zm",
+    "Email": "info@mngra.gov.zm"
+  },
+  {
+    "Number": 14,
+    "Name": "Ministry of National Development Planning",
+    "Address": "2251, Fairley Road Ridgeway, P.O. Box 30147, Lusaka",
+    "Telephone": "+260211252395",
+    "Website": "https://www.mndp.gov.zm",
+    "Email": "info@mndp.gov.zm"
+  },
+  {
+    "Number": 15,
+    "Name": "Ministry of Mines and Minerals Development",
+    "Address": "New Government Complex Building, Nasser Road, 12th & 14th Floor, P.O Box 31969, Kamwala, LUSAKA",
+    "Telephone": "+260211235346",
+    "Website": "https://www.mmmd.gov.zm",
+    "Email": "info@mmmd.gov.zm"
+  },
+  {
+    "Number": 16,
+    "Name": "Ministry of Local Government and Housing",
+    "Address": "Plot 2020, Church Road, P. O. Box 50027, Lusaka, Zambia",
+    "Telephone": "+260211250528",
+    "Website": "https://www.mlg.gov.zm",
+    "Email": "info@mlg.gov.zm"
+  },
+  {
+    "Number": 17,
+    "Name": "Ministry of Lands and Natural Resources",
+    "Address": "Mulungushi House, Independence Avenue, P.O. Box 50694, Ridgeway Lusaka, Zambia",
+    "Telephone": "+260211252323",
+    "Website": "https://www.mlnr.gov.zm",
+    "Email": "info@mlnr.gov.zm"
+  },
+  {
+    "Number": 18,
+    "Name": "Ministry of Labour and Social Security",
+    "Address": "New Government Complex, P.O. Box 32186, Lusaka, Zambia 10101",
+    "Telephone": "+260211221432",
+    "Website": "https://www.mlss.gov.zm",
+    "Email": "info@mlss.gov.zm"
+  },
+  {
+    "Number": 19,
+    "Name": "Ministry of Justice",
+    "Address": "P.O Box 50106, Lusaka, Zambia",
+    "Telephone": "+260211252034",
+    "Website": "https://www.moj.gov.zm",
+    "Email": "info@moj.gov.zm"
+  },
+  {
+    "Number": 20,
+    "Name": "Ministry of Information and Broadcasting",
+    "Address": "6th Floor, New Government Complex, Nassar Road,P.O. Box 51025, Lusaka",
+    "Telephone": "+260211237152",
+    "Website": "https://www.mibs.gov.zm",
+    "Email": "info@mibs.gov.zm"
+  },
+  {
+    "Number": 21,
+    "Name": "Ministry of Housing and Infrastructure Development",
+    "Address": "Plot 2020, Church Road, P.O. Box 50027 RW, Lusaka, Zambia",
+    "Telephone": "+260211259342",
+    "Website": "https://www.mhid.gov.zm",
+    "Email": "info@mhid.gov.zm"
+  },
+  {
+    "Number": 22,
+    "Name": "Ministry of Home Affairs",
+    "Address": "Independence Avenue, P.O.Box 50997",
+    "Telephone": "+260211254336",
+    "Website": "https://www.moha.gov.zm",
+    "Email": "info@moha.gov.zm"
+  },
+  {
+    "Number": 23,
+    "Name": "Ministry of Higher Education",
+    "Address": "P.O Box 50464, Lusaka, Zambia",
+    "Telephone": "+260211252911",
+    "Website": "https://www.mohe.gov.zm",
+    "Email": "info@mohe.gov.zm"
+  },
+  {
+    "Number": 24,
+    "Name": "Ministry of General Education",
+    "Address": "89 Corner of Chimanga and Mogadishu Road, P.O. Box 50093, Lusaka, Zambia",
+    "Telephone": "+260211250855",
+    "Website": "https://www.moge.gov.zm",
+    "Email": "info@moge.gov.zm"
+  },
+  {
+    "Number": 25,
+    "Name": "Ministry of Gender",
+    "Address": "New Government Complex, P.O. Box 30719",
+    "Telephone": "+2602011230031",
+    "Website": "https://www.gender.gov.zm",
+    "Email": "info@gender.gov.zm"
+  },
+  {
+    "Number": 26,
+    "Name": "Ministry of Foreign Affairs",
+    "Address": "Charter House Independence Avenue, P.O Box 50069, Lusaka, Zambia",
+    "Telephone": "+260211252666",
+    "Website": "https://www.mofa.gov.zm",
+    "Email": "info@mofa.gov.zm"
+  },
+  {
+    "Number": 27,
+    "Name": "Ministry of Fisheries and Livestock",
+    "Address": "Mulungushi House, P.O Box 50060, Lusaka, Zambia",
+    "Telephone": "+260 977 413619",
+    "Website": "https://www.mfl.gov.zm",
+    "Email": "info@mfl.gov.zm"
+  },
+  {
+    "Number": 28,
+    "Name": "Ministry of Finance",
+    "Address": "P.O Box 50062, Chimanga Road, Lusaka, Zambia",
+    "Telephone": "+260211251843",
+    "Website": "https://www.mof.gov.zm",
+    "Email": "info@mof.gov.zm"
+  },
+  {
+    "Number": 29,
+    "Name": "Ministry of Energy",
+    "Address": "14th Floor Government Complex, P.O Box 36079, Lusaka Zambia.",
+    "Telephone": "+260211230840",
+    "Website": "https://www.moe.gov.zm",
+    "Email": "info@moe.gov.zm"
+  },
+  {
+    "Number": 30,
+    "Name": "Ministry of Defence",
+    "Address": "Independence Avenue, P.O Box RW 17X, Lusaka",
+    "Telephone": "+260211251211",
+    "Website": "https://www.mod.gov.zm",
+    "Email": "info@mod.gov.zm"
+  },
+  {
+    "Number": 31,
+    "Name": "Ministry of Community Development and Social Welfare",
+    "Address": "Sadzu Rd, Lusaka",
+    "Telephone": "+260211225327",
+    "Website": "https://www.mcdsw.gov.zm",
+    "Email": "info@mcdsw.gov.zm"
+  },
+  {
+    "Number": 32,
+    "Name": "Ministry of Commerce, Trade and Industry",
+    "Address": "New Government Complex, 8th, 9th and 10th Floors, Nasser Road, P.O. Box 31968, Lusaka, Zambia",
+    "Telephone": "+260211228301",
+    "Website": "https://www.mcti.gov.zm",
+    "Email": "info@mcti.gov.zm"
+  },
+  {
+    "Number": 33,
+    "Name": "Ministry of Chiefs and Traditional Affairs",
+    "Address": "P.O Box 50506, Fairley Road, Lusaka Zambia",
+    "Telephone": "+260211252713",
+    "Website": "https://www.mocta.gov.zm",
+    "Email": "info@mocta.gov.zm"
+  },
+  {
+    "Number": 34,
+    "Name": "Ministry of Agriculture",
+    "Address": "Mulungushi House, P.O Box RW 50291, Lusaka",
+    "Telephone": "+26001253933",
+    "Website": "https://www.agriculture.gov.zm",
+    "Email": "info@agriculture.gov.zm"
+  },
+  {
+    "Number": 35,
+    "Name": "Lusaka Provincial Administration",
+    "Address": "-",
+    "Telephone": "-",
+    "Website": "https://www.lsk.gov.zm",
+    "Email": "info@lsk.gov.zm"
+  },
+  {
+    "Number": 36,
+    "Name": "Luapula Provincial Administration",
+    "Address": "Office of the Permanent Secretary, P.O Box 710065, Mansa",
+    "Telephone": "+260211821393",
+    "Website": "https://www.lua.gov.zm",
+    "Email": "info@lua.gov.zm"
+  },
+  {
+    "Number": 37,
+    "Name": "Eastern Provincial Administration",
+    "Address": "Eastern Provincial Administration, P.O Box 16122, Chipata",
+    "Telephone": "+260216221279",
+    "Website": "https://www.eas.gov.zm",
+    "Email": "info@eas.gov.zm"
+  },
+  {
+    "Number": 38,
+    "Name": "Copperbelt Provincial Administration",
+    "Address": "Provincial Administration Copperbelt Province, P.O. Box 70153, Ndola",
+    "Telephone": "+260212613434",
+    "Website": "https://www.cbt.gov.zm",
+    "Email": "info@cbt.gov.zm"
+  },
+  {
+    "Number": 39,
+    "Name": "Central Provincial Administration",
+    "Address": "P.O. Box 80903, Kabwe",
+    "Telephone": "+260215222421",
+    "Website": "https://www.cen.gov.zm",
+    "Email": "info@cen.gov.zm"
+  },
+  {
+    "Number": 40,
+    "Name": "Cabinet Office",
+    "Address": "Independence Avenue, P.O. Box 30208, Lusaka, Zambia.",
+    "Telephone": "+260211255231",
+    "Website": "https://www.cabinet.gov.zm",
+    "Email": "info@cabinet.gov.zm"
+  },
+  {
+    "Number": 41,
+    "Name": "Ministry of Health",
+    "Address": "Haille Selassie Avenue, Ndeke House, P.O. Box 30205",
+    "Telephone": "+260211253040",
+    "Website": "https://www.moh.gov.zm",
+    "Email": "info@moh.gov.zm"
+  }
+]

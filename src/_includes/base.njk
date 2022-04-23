@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="{{meta.authorName}}" content="{{ meta.siteName }}" />
+    <title>Ministry of Defence Zambia - {{ title }}</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/logos/favicon.ico" type="image/x-icon">
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Normalize all css for all the different browsers -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjd.cloudflae.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <!--Font Awesome CSS Links-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body> 
+      {% include 'header.njk' %} 
+      {% include 'nav.njk' %}
+      <main> 
+      {{ content | safe }}
+      </main> 
+      {%include 'footer.njk' %}
+  </body>    
+<script src="/script/mini-slides-show-script.js"></script>
+<script src="/script/nav-responsive-script.js"></script>
+<script src="/script/slides-show-script.js"></script>
+<script src="/script/auto-slides-show-script.js"></script>
+<script src="/script/table-search.js"></script>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "mod-new",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio website built using only HTML, CSS, and a little bit of JavaScript. I then used JAMstack so the site can be served as a static site, this was achieved by using eleventy and up staging the HTML file to a Nunjucks file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavier9981/mod-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavier9981/mod-new/issues"
+  },
+  "homepage": "https://github.com/Xavier9981/mod-new#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+---
+layout: 'base.njk'
+---
+
+<section class="regular-grid margin-top-bottom">
+  <div class="orange-box">
+    <div class="title-box--orange-box">
+      <h2 class="title--orange-box">Featured Videos</h2>
+    </div>
+
+    <div class="regular-box--orange-box">
+      <div class="all-info-content-box--orange-box">        
+        {%- for post in collections.fvAll | reverse -%}
+          {% include 'featured-video.njk' %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+---
+layout: 'base.njk'
+---
+
+<section class="regular-grid margin-top-bottom">
+  <div class="orange-box">
+    <div class="title-box--orange-box">
+      <h2 class="title--orange-box">Latest Speeches and Press Releases</h2>
+    </div>
+
+    <div class="regular-box--orange-box">
+      <div class="all-info-content-box--orange-box">        
+        {%- for post in collections.lsprAll | reverse -%}
+          {% include 'article-snippet.njk' %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+    
