@@ -823,10 +823,6 @@ nav .navbar .links li:hover {
 
 .orange-box {
   grid-area: orange-box;
-  border-color: var(--clr-orange);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: var(--br);
 }
 
 .bg-btn--orange-box {
@@ -836,7 +832,9 @@ nav .navbar .links li:hover {
 
 .title-box--orange-box {
   background-color: var(--clr-orange);
-  border-bottom: 0.1em solid var(--clr-orange);
+  border: 2px solid var(--clr-orange);
+  border-top-left-radius: var(--br);
+  border-top-right-radius: var(--br);
 }
 
 .title--orange-box {
@@ -846,6 +844,10 @@ nav .navbar .links li:hover {
 
 .regular-box--orange-box {
   padding: 15px 0 15px;
+  border-top: none;
+  border: 2px solid var(--clr-orange);
+  border-bottom-left-radius: var(--br);
+  border-bottom-right-radius: var(--br);
 }
 
 .btn-box--orange-box {
