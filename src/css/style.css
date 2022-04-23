@@ -1507,6 +1507,15 @@ nav .navbar .links li:hover {
     height: 300px;
   }
 
+  .mini-slide-show > div {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .myMinSlides {
+    height: 100%;
+  }
+
   .regular-grid {
     grid-template-areas: "orange-box orange-box orange-box orange-box orange-box orange-box orange-box orange-box orange-box orange-box orange-box orange-box";
     padding: 0 10px;
