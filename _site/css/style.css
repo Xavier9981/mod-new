@@ -788,7 +788,8 @@ nav .navbar .links li:hover {
 
 .myMinSlides {
   border: 1px solid #b0bec5;
-  border-radius: var(--br) var(--br) 0 0;
+  border-top-left-radius: var(--br);
+  border-top-right-radius: var(--br);
   display: none;
   margin: 0;
   height: 240px;
@@ -799,6 +800,8 @@ nav .navbar .links li:hover {
 .myMinSlides img {
   width: 100%;
   height: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .emphasis {
