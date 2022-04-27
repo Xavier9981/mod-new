@@ -49,6 +49,7 @@
     0px 3px 8px 0px #b0bec5;
 
   --br: 5px;
+  --br-3: 3px;
 }
 
 /* General styles */
@@ -1345,24 +1346,24 @@ nav .navbar .links li:hover {
     left: -100%;
     display: flex;
     flex-direction: column;
-    max-width: 275px;
+    max-width: 80%;
     width: 100%;
     background: var(--clr-black);
     line-height: 40px;
-    padding: 10px 0;
-    box-shadow: var(--bs-1);
+    padding: 10px 0 10px 10px;
+    box-shadow: var(--bs-0);
     transition: all 0.5s ease;
     z-index: 1000;
     overflow-y: scroll;
   }
 
-  .active-link-nav {
-    border-radius: var(--br);
+  nav .sub-menu [aria-current="page"],
+  nav .links [aria-current="page"] {
+    border-radius: var(--br-3);
   }
 
   nav .navbar .links li a {
     display: block;
-    padding: 0 0 0 15px;
   }
 
   .sub-menu {
