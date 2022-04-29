@@ -15,24 +15,23 @@ layout: 'base.njk'
                 <div>
                     <h4 class="article-title">{{ title }}</h4>
                     <div class="name-date-tag">
-                        <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
-                        <span class="name-tag" >{{ author }}</span>
-                        <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
-                        <span class="date-tag">{{ date | postDate }}</span>
+                      <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
+                      <span class="name-tag" >{{ author }}</span>
+                      <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
+                      <span class="date-tag">{{ date | postDate }}</span>
                     </div>
                 </div>
 
                 <figure class="post-figure">
-                    <img src="{{ image }}" alt="{{ imageAlt }}">
-                    <figcaption class="figcap"><em>{{ imageAlt }}</em></figcaption>
+                  <img src="{{ image }}" alt="{{ imageAlt }}">
+                  <figcaption class="figcap"><em>{{ imageAlt }}</em></figcaption>
                 </figure>
                 
                 <article class="content-wrapper">
-                    {{ content | safe }}
+                  {{ content | safe }}
                 </article>
             </section>
         </div>
     </div>
   </div>
 </section>
-    

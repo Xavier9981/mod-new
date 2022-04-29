@@ -38,13 +38,18 @@
   </head>
   <body> 
     {% include 'header.njk' %} 
+
     {% include 'nav.njk' %}
+    
+    <!-- main -->
     <main> 
     {{ content | safe }}
     </main> 
+
     {%include 'footer.njk' %}
   </body>
 
   <!-- responsive navigation js -->
   <script src="/script/nav-responsive-script.js"></script>
+  <script src="/script/netlify-user-identity.js"></script>
 </html>
