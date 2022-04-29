@@ -83,8 +83,9 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Image Source", name: "imageSrc", widget: "string" }
               - { label: "Image Alt", name: "imageAlt", widget: "string" }
+
       # External links
-      - label: "Ministries"
+      - label: "External Links"
         name: "externalLinks"
         file: "src/_data/externalLinks.json"
         fields:
@@ -92,9 +93,9 @@ collections:
             label: Ministries Contact Info
             widget: list
             fields:
-              - { label: "Number", name: "Number", widget: "number" }
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Address", name: "Address", widget: "string" }
-              - { label: "Telephone", name: "Telephone", widget: "string" }
-              - { label: "Website", name: "Website", widget: "string" }
-              - { label: "Email", name: "Email", widget: "string" }
+              - { label: "Number", name: "number", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+              - { label: "Telephone", name: "telephone", widget: "string" }
+              - { label: "Website", name: "website", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }

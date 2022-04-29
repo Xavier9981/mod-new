@@ -3,9 +3,9 @@
   "title": "All the Zambian Ministries",
   "layout": "regular-page.njk",
   "pagination":{
-    "data": "externalLinks",
+    "data": "externalLinks.ministriesContactInfo",
     "size": 5,
-    "alias": "externalLinks"
+    "alias": "externalLinks.ministriesContactInfo"
   }
 }
 ---
@@ -40,26 +40,24 @@
       </thead>
 
       <tbody>
-        {% for externalLink in externalLinks %}
+        {% for externalLink in externalLinks.ministriesContactInfo %}
           <tr>
-            <td data-label="No.">{{ externalLink.Number }}</td>
-            <td data-label="Ministry Name">{{ externalLink.Name }}</td>
-            <td data-label="Physical Address">{{ externalLink.Address }}</td>
+            <td data-label="No.">{{ externalLink.number }}</td>
+            <td data-label="Ministry Name">{{ externalLink.title }}</td>
+            <td data-label="Physical Address">{{ externalLink.address }}</td>
             <td data-label="Telephone Number">
-              <span>Tel:</span><a href="tel:{{ externalLink.Telephone }}">{{ externalLink.Telephone }}</a>
+              <span>Tel:</span><a href="tel:{{ externalLink.telephone }}">{{ externalLink.telephone }}</a>
             </td>
             <td data-label="Website">
-              <a href="{{ externalLink.Website }}" target="_blank"
+              <a href="{{ externalLink.website }}" target="_blank"
                 >Visit site</a
               >
             </td>
             <td data-label="Email Address">
-              <a href="mailto:{{ externalLink.Email }}">{{ externalLink.Email }}</a>
+              <a href="mailto:{{ externalLink.email }}">{{ externalLink.email }}</a>
             </td>
           </tr>
         {% endfor %}
-
- 
       </tbody>
     </table>
   </div>
