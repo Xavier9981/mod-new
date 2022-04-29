@@ -67,7 +67,7 @@ collections:
 
   # Downloads collection
   - name: "downloads"
-    label: "downloads"
+    label: "Downloads"
     folder: "src/pages/downloads"
     create: false
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
