@@ -3,6 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to main)
 media_folder: "_site/assets/images/post-images"
 public_folder: "/assets/images/post-images"
+local_backend: true
+publish_mode: editorial_workflow
 
 collections:
   # Latest news collection
@@ -74,7 +76,7 @@ collections:
         file: "src/_data/slides.json"
         fields:
           - name: slideImages
-            label: The Name of the List
+            label: Main slide images
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
