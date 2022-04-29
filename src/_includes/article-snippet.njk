@@ -5,10 +5,12 @@
       <h4>{{ post.data.title }}</h4>
     </div>
     <div class="name-date-tag">
-      <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
-      <span class="name-tag">{{ post.data.author }}</span>
-      <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
-      <span class="date-tag">{{ post.date | postDate }}</span>
+      <em class="figcap">
+        <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
+        <span class="name-tag">{{ post.data.author }}</span>
+        <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
+        <span class="date-tag">{{ post.date | postDate }}</span>
+      </em>
     </div>
     <div class="description-paragraph">
       <p>{{ post.data.description }}</p>
@@ -16,6 +18,6 @@
   </div>
 
   <div class="btn-box--info-card">
-    <a href="{{ post.url }}" class="btn bg-btn--info-card">Read More</a>
+    <a href="{{ post.url }}" class="btn bg-btn--info-card">Read More <span class="right-tee-arrow">&#10511;</span></a>
   </div>
 </div>

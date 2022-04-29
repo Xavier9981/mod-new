@@ -65,7 +65,7 @@ collections:
           default: ["fvAll"],
         }
 
-  # File collections of the featured images on main slide
+  # File collections of the file lists
   - label: "List files"
     name: "Lists"
     format: "json"
@@ -99,3 +99,23 @@ collections:
               - { label: "Telephone", name: "telephone", widget: "string" }
               - { label: "Website", name: "website", widget: "string" }
               - { label: "Email", name: "email", widget: "string" }
+
+  # File collections of the downloads
+  - label: "Downloads"
+    name: "Downloads"
+    format: "markdown"
+    extension: "markdown"
+    files:
+      # Slide images
+      - label: "Acts"
+        name: "acts"
+        file: "src/_data/acts.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "string",
+              default:"regular-page.njk",
+            }
+          - { label: "Text body", name: "textBody", widget: "markdown" }

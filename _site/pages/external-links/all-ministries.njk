@@ -68,9 +68,11 @@
   <div class="pagination-box">
     <ul>
       <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&#8810;</a>{% endif %}</li>
-        {% for pageEntry in pagination.pages %}
-          <li><a {% if currentUrl === pagination.hrefs[loop.index0] %} aria-current="pagination" {% endif %} href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a></li>
-        {% endfor %}
+
+      {% for pageEntry in pagination.pages %}
+        <li><a {% if currentUrl === pagination.hrefs[loop.index0] %} aria-current="pagination" {% endif %} href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a></li>
+      {% endfor %}
+      
       <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">&#8811;</a>{% endif %}</li>
     </ul>
   </div>
