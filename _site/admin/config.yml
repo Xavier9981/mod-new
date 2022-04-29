@@ -66,11 +66,12 @@ collections:
         }
 
   # File collections of the featured images on main slide
-  - label: "Main slide"
-    name: "slides"
+  - label: "List files"
+    name: "Lists"
     format: "json"
     extension: "json"
     files:
+    # Slide images
       - label: "Slides"
         name: "slides"
         file: "src/_data/slides.json"
@@ -82,3 +83,19 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Image Source", name: "imageSrc", widget: "string" }
               - { label: "Image Alt", name: "imageAlt", widget: "string" }
+    # External links
+      - label: "Ministries"
+        name: "externalLinks"
+        file: "src/_data/externalLinks.json"
+        fields:
+          - name: ministriesContactInfo
+            label: Ministries Contact Info
+            widget: list
+            fields:
+              - { label: "Number", name: "Number", widget: "number"
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Address", name: "Address", widget: "string" }
+              - { label: "Telephone", name: "Telephone", widget: "string"
+              - { label: "Website", name: "Website", widget: "string"
+              - { label: "Email", name: "Email", widget: "string" }
+

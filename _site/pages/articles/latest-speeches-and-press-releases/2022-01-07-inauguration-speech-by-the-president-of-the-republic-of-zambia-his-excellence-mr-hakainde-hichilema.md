@@ -6,7 +6,7 @@ date: 2021-08-24T13:31:35.732Z
 tags:
   - lsprAll
   - lsprNew
-image: \assets\images\post-images\Mr. Hakahinde Hichilema Given a Guard of Honour by the Zambian Army on his Inaguaration Ceremony. Tuesday, 24th August, 2021. At the National Heros Stadium Lusaka.jpg
+image: \assets\images\post-images\Hakahinde Hichilema Given a Guard of Honour by the Zambian Army on his Inaguaration Ceremony.jpg
 imageAlt: Mr. Hakahinde Hichilema Given a Guard of Honour by the Zambian Army
   on his Inaguaration Ceremony. Tuesday, 24th August, 2021. At the National
   Heros Stadium Lusaka.

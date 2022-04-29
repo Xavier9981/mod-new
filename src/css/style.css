@@ -497,8 +497,12 @@ nav .navbar .links li:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-decoration-color: var(--clr-red);
-
   font-weight: var(--fw-700);
+}
+
+.marquee p span::after {
+  content: "";
+  margin-right: 5px;
 }
 
 .marquee :hover {
