@@ -65,6 +65,16 @@ collections:
           default: ["fvAll"],
         }
 
+  # Downloads collection
+  - name: "downloads"
+    label: "downloads"
+    folder: "src/pages/downloads"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   # File collections of the file lists
   - label: "List files"
     name: "Lists"
@@ -99,23 +109,3 @@ collections:
               - { label: "Telephone", name: "telephone", widget: "string" }
               - { label: "Website", name: "website", widget: "string" }
               - { label: "Email", name: "email", widget: "string" }
-
-  # File collections of the downloads
-  - label: "Downloads"
-    name: "Downloads"
-    format: "markdown"
-    extension: "markdown"
-    files:
-      # Slide images
-      - label: "Acts"
-        name: "acts"
-        file: "src/_data/acts.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "string",
-              default:"regular-page.njk",
-            }
-          - { label: "Text body", name: "textBody", widget: "markdown" }
