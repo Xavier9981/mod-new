@@ -493,8 +493,11 @@ nav .navbar .links li:hover {
 }
 
 .marquee p span {
-  color: var(--clr-red);
+  color: var(--clr-black-100);
   text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--clr-red);
+
   font-weight: var(--fw-700);
 }
 

@@ -65,19 +65,18 @@ collections:
 
   # File collections of the featured images on main slide
   - label: "Main slide"
-    name: "slide"
+    name: "slides"
+    format: "json"
+    extension: "json"
     files:
-      - label: "Image 1"
-        name: "image1"
+      - label: "Slides"
+        name: "slides"
         file: "src/_data/slides.json"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Image Source, name: imageSrc1, widget: string }
-          - { label: Image Alt, name: imageAlt1, widget: string }
-      - label: "Image 2"
-        name: "image2"
-        file: "src/_data/slides.json"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Image Source, name: imageSrc2, widget: string }
-          - { label: Image Alt, name: imageAlt2, widget: string }
+          - name: slideImages
+            label: The Name of the List
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Image Source, name: imageSrc, widget: string }
+              - { label: Image Alt, name: imageAlt, widget: string }

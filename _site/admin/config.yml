@@ -5,6 +5,7 @@ media_folder: "_site/assets/images/post-images"
 public_folder: "/assets/images/post-images"
 
 collections:
+  # Latest news collection
   - name: "latest-news"
     label: "Latest News"
     folder: "src/pages/articles/latest-news"
@@ -25,6 +26,7 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  # Latest speeches and press releases collection
   - name: "latest-speeches-and-press-releases"
     label: "Latest Speeches and Press Releases"
     folder: "src/pages/articles/latest-speeches-and-press-releases"
@@ -45,6 +47,7 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  # Featured videos collection
   - name: "featured-videos"
     label: "Featured Videos"
     folder: "src/pages/articles/featured-videos"
@@ -59,3 +62,21 @@ collections:
           widget: "list",
           default: ["fvAll"],
         }
+
+  # File collections of the featured images on main slide
+  - label: "Main slide"
+    name: "slides"
+    format: "json"
+    extension: "json"
+    files:
+      - label: "Slides"
+        name: "slides"
+        file: "src/_data/slides.json"
+        fields:
+          - name: slideImages
+            label: The Name of the List
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Image Source, name: imageSrc, widget: string }
+              - { label: Image Alt, name: imageAlt, widget: string }
