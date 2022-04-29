@@ -3,37 +3,44 @@
     {
       "title": "Slide image-1",
       "imageSrc": "./assets/images/slide-show/Zambia_US_PPE_Africom.jpg",
-      "imageAlt": "The US donates protective equipment against COVID19 to the Zambian Ministry of Defence."
+      "imageAlt": "The US donates protective equipment against COVID19 to the Zambian Ministry of Defence.",
+      "tags": "post"
     },
     {
       "title": "Slide image-2",
       "imageSrc": "assets/images/slide-show/1280px-thumbnail.jpg",
-      "imageAlt": "Service members and delegates from more than 40 nations gather at the Zambian Army headquarters for the opening ceremony for Africa Endeavor (AE) 2013 in Lusaka, Zambia, Aug. 7, 2013"
+      "imageAlt": "Service members and delegates from more than 40 nations gather at the Zambian Army headquarters for the opening ceremony for Africa Endeavor (AE) 2013 in Lusaka, Zambia, Aug. 7, 2013",
+      "tags": "post"
     },
     {
       "title": "Slide image-3",
       "imageSrc": "assets/images/slide-show/unnamed.jpg",
-      "imageAlt": "Zambian National Service women march on Women's day."
+      "imageAlt": "Zambian National Service women march on Women's day.",
+      "tags": "post"
     },
     {
       "title": "Slide image-4",
       "imageSrc": "assets/images/slide-show/Lungu-and-air-force-Gen-Eric-Chimese-620x400.jpg",
-      "imageAlt": "President Edgar Lungu with Air Force Commander Lt Gen Eric Chimese at the official opening of Zambia airforce L15 Flight Simulator Centre at ZAF Lusaka Base and Trainer aircrafts."
+      "imageAlt": "President Edgar Lungu with Air Force Commander Lt Gen Eric Chimese at the official opening of Zambia airforce L15 Flight Simulator Centre at ZAF Lusaka Base and Trainer aircrafts.",
+      "tags": "post"
     },
     {
       "title": "Slide image-5",
       "imageSrc": "assets/images/slide-show/maxresdefault.jpg",
-      "imageAlt": "A delegation headed by the Deputy Commander of the Army and Chief of Staff of the Zambian Army, General Dennis Sitali Alibuzwi, paid a courtesy visit on Nov. 10, 2020 to the chiief of MINUSCA, Mankeur Ndiaye."
+      "imageAlt": "A delegation headed by the Deputy Commander of the Army and Chief of Staff of the Zambian Army, General Dennis Sitali Alibuzwi, paid a courtesy visit on Nov. 10, 2020 to the chiief of MINUSCA, Mankeur Ndiaye.",
+      "tags": "post"
     },
     {
       "title": "Slide image-6",
       "imageSrc": "assets/images/slide-show/zambia-air-force-zaf.jpg",
-      "imageAlt": "Induction ceremony of Zambia’s new L-15 aircraft by His Excellence Mr. Edgar Lungu."
+      "imageAlt": "Induction ceremony of Zambia’s new L-15 aircraft by His Excellence Mr. Edgar Lungu.",
+      "tags": "post"
     },
     {
       "title": "Slide image-7",
       "imageSrc": "assets/images/slide-show/2b52ad_1866d139bdfc4b74a8be1ec81dfd0191_mv2.jpg",
-      "imageAlt": "His Excellence Mr. Hakahinde Hichilema given a guard of honour by the Zambian Army on his inaguaration ceremony."
+      "imageAlt": "His Excellence Mr. Hakahinde Hichilema given a guard of honour by the Zambian Army on his inaguaration ceremony.",
+      "tags": "post"
     }
   ]
 }

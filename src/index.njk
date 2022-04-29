@@ -1,6 +1,10 @@
 ---
 title: Home Page
 layout: base.njk
+pagination: 
+  data: slides.slideImages
+  size: 7
+  alias: slides.slideImages
 ---
 
 <!-- custom marquee -->
@@ -22,76 +26,18 @@ layout: base.njk
   </div>
   <div class="slide-grid">
     <div class="slide-show-container">
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q>{{ data.imageAlt }}</q>
+      {% for slideImage in slides.slideImages %}
+        <div class="mySlides fade">
+          <img src="{{ slideImage.imageSrc }}" alt="{{ slideImage.imageAlt }}" />
+          <div class="caption">
+            <q>{{ slideImage.imageAlt }}</q>
 
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
+            <div class="tool-tip-text">
+              <p>{{ slideImage.imageAlt }}</p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q>{{ data.imageAlt }} </q>
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q> {{ data.imageAlt }} </q>
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q> {{ data.imageAlt }} </q>
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q> {{ data.imageAlt }} </q>
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q> {{ data.imageAlt }} </q>
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="{{ post.data.imageSrc }}" alt="{{ data.imageAlt }}" />
-        <div class="caption">
-          <q> {{ data.imageAlt }} </q>
-          <div class="tool-tip-text">
-            <p>{{ data.imageAlt }}</p>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
 
       <a class="prev" onclick="plusSlides(-1)">&#8656;</a>
       <a class="next" onclick="plusSlides(1)">&#8658;</a>

@@ -12,7 +12,7 @@ collections:
     label: "Latest News"
     folder: "src/pages/articles/latest-news"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
@@ -33,7 +33,7 @@ collections:
     label: "Latest Speeches and Press Releases"
     folder: "src/pages/articles/latest-speeches-and-press-releases"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
@@ -54,7 +54,7 @@ collections:
     label: "Featured Videos"
     folder: "src/pages/articles/featured-videos"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Paste emded youtube link", name: "link", widget: "string" }
@@ -79,6 +79,6 @@ collections:
             label: Main slide images
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Image Source, name: imageSrc, widget: string }
-              - { label: Image Alt, name: imageAlt, widget: string }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image Source", name: "imageSrc", widget: "string" }
+              - { label: "Image Alt", name: "imageAlt", widget: "string" }
