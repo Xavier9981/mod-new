@@ -84,6 +84,7 @@ collections:
       # Slide images
       - label: "Slides"
         name: "slides"
+        create: false
         file: "src/_data/slides.json"
         fields:
           - name: slideImages

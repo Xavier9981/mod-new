@@ -50,7 +50,7 @@
           </ul>
         </li>
 
-        {% for page in collections.mainPages %}
+        {% for page in collections.mainPages | reverse %}
           <li>
             <a {% if currentUrl === page.url %}aria-current="page"{% endif %} href="{{ page.url }}">
               {{ page.data.title }}
