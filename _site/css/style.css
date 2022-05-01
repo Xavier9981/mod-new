@@ -819,13 +819,8 @@ nav .navbar .links li:hover {
   border-top: 0.1em solid var(--clr-white-100);
   font-size: var(--fs-reg-15);
   font-family: var(--ff-cursive);
-  font-weight: 600;
   margin-top: 5px;
   text-align: center;
-}
-
-.emphasis > blockquote {
-  margin: 0;
 }
 
 /* Latest news */
