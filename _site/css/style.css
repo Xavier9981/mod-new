@@ -1215,11 +1215,10 @@ nav .navbar .links li:hover {
   font-size: var(--fs-reg-15);
 }
 
-.pagination-box ul li a:hover {
-  background-color: var(--clr-green);
-  color: var(--clr-white);
-  box-shadow: var(--bs-3);
-  border-radius: 3px;
+.pagination-box ul li:first-child a,
+.pagination-box ul li:last-child a {
+  background-color: var(--clr-orange);
+  border-radius: 2px;
 }
 
 .pagination-box ul li [aria-current="pagination"] {
@@ -1227,14 +1226,14 @@ nav .navbar .links li:hover {
   border-radius: 2px;
 }
 
-.pagination-box ul li:first-child,
-.pagination-box ul li:last-child {
-  background-color: var(--clr-orange);
-  border-radius: 2px;
+.pagination-box ul li a:hover {
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  box-shadow: var(--bs-3);
+  border-radius: var(--br-3);
 }
 
 /* Media queries */
-
 @media screen and (min-width: 920px) {
   .mySlides {
     width: 793px;
