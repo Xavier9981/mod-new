@@ -36,6 +36,7 @@
 
   --clr-gray-200: #e9eaeb;
   --clr-gray-500: #727272;
+  --clr-gray-600: #555555ec;
   --clr-white-100: #fcfdfc;
   --clr-white: #ffffff;
 
@@ -191,14 +192,6 @@ nav .navbar {
   padding: 0 50px;
 }
 
-nav .links [aria-current="page"] {
-  background-color: var(--clr-orange);
-}
-
-nav .sub-menu [aria-current="page"] {
-  background-color: var(--clr-green);
-}
-
 .hamburger-box {
   display: none;
   padding-right: 10px;
@@ -300,9 +293,18 @@ nav .navbar .links li a {
   padding: 0 15px;
 }
 
-/*.active-link-nav {
+nav .navbar .links li a:focus {
+  outline: none;
+}
+
+nav .navbar .links li [aria-current="page"] {
   background-color: var(--clr-orange);
-}*/
+  color: var(--clr-black);
+}
+
+nav .navbar .sub-menu li [aria-current="page"] {
+  background-color: var(--clr-green);
+}
 
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow {
@@ -461,8 +463,9 @@ nav .navbar .links li:hover .js-sub-menu {
   display: none;
 }
 
-nav .navbar .links li:hover {
-  background: #555555ec;
+nav .navbar .links li a:hover {
+  color: var(--clr-white);
+  background: var(--clr-gray-600);
 }
 
 .privacy-tag {
@@ -1250,12 +1253,7 @@ nav .navbar .links li:hover {
     padding: 0 25px;
   }
 
-  nav .navbar .logo a {
-    font-size: 1.6875rem;
-  }
-
   nav .navbar .links li {
-    padding: 0 10px;
     white-space: nowrap;
   }
 
@@ -1327,9 +1325,10 @@ nav .navbar .links li:hover {
     display: none;
   }
 
-  nav .navbar .links li:hover {
-    color: var(--clr-orange);
-    background: var(--clr-black);
+  nav .navbar .links li a:hover {
+    color: var(--clr-white);
+    background: var(--clr-gray-600);
+    border-radius: var(--br-3);
   }
 
   .sub-menu {
@@ -1412,6 +1411,7 @@ nav .navbar .links li:hover {
 
   nav .navbar .links li {
     display: block;
+    padding: 0 10px;
   }
 
   nav .navbar .links li .sub-menu {
@@ -1426,7 +1426,9 @@ nav .navbar .links li:hover {
     position: relative;
     left: 0;
   }
-  .navbar .links li .sub-menu .more-sub-menu li {
+
+  /**/
+  .navbar .links li .sub-menu .more-sub-menu li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
