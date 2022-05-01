@@ -47,7 +47,7 @@
   --bs-1: 0px 1px 2px rgba(0, 0, 0, 0.2);
   --bs-2: 0px 2px 8px 0px #b0bec5, 1px 1px 4px 1px #b0bec5,
     0px 3px 8px 0px #b0bec5;
-
+  --bs-3: 0px 1px 3px 0px var(--clr-black);
   --br: 5px;
   --br-3: 3px;
 }
@@ -1208,8 +1208,9 @@ nav .navbar .links li:hover {
 }
 
 .pagination-box ul li a {
-  color: #000;
+  color: var(--clr-black-100);
   border-radius: 2px;
+  box-shadow: var(--bs-3);
   padding: 5px 10px;
   font-size: var(--fs-reg-15);
 }
@@ -1217,9 +1218,15 @@ nav .navbar .links li:hover {
 .pagination-box ul li a:hover {
   background-color: var(--clr-green);
   color: var(--clr-white);
+  box-shadow: var(--bs-3);
+  border-radius: 3px;
 }
 
-.pagination-box ul li [aria-current="pagination"],
+.pagination-box ul li [aria-current="pagination"] {
+  background-color: var(--clr-orange);
+  border-radius: 2px;
+}
+
 .pagination-box ul li:first-child,
 .pagination-box ul li:last-child {
   background-color: var(--clr-orange);
