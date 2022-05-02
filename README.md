@@ -37,11 +37,11 @@ The `package.json` file is the heart of any Eleventy project. It records importa
 
 ## Here is a preview of the landing page:
 
-1. ### Desktop version
+### Desktop version
 
 ![Landing page for Ministry of Defence Zambia](./src/assets/images/screencapture-ministry-of-defence-zambia-netlify-app-2022-05-01-22_32_44.png "ministry-of-defence-zambia-desktop")
 
-2. ### Mobile version
+### Mobile version
 
 ![Landing page for Ministry of Defence Zambia](./src/assets/images/screencapture-ministry-of-defence-zambia-netlify-app-2022-05-02-05_47_59.png "ministry-of-defence-zambia-mobile")
 
