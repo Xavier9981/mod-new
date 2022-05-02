@@ -34,9 +34,9 @@
           </ul>
         </li>
 
-        {% for page in collections.mainPages | reverse %}
+        {% for page in collections.mainPages %}
           <li>
-            <a {% if currentUrl === page.url %}aria-current="page"{% endif %} href="{{ page.url }}">
+            <a {% if currentUrl === page.url %} aria-current="page"{% endif %} href="{{ page.url }}">
               {{ page.data.title }}
             </a>
           </li>
