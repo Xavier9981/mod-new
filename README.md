@@ -1,6 +1,6 @@
 # The Ministry of Defence Zambia
 
-This is the my initial proposed vision of the new ministerial website of defence for the goverment of Zambia. The website was built using basic **HTML**, **CSS**, and **Vanilla JavaScript**. Then upstaged the website to a **JAMStack** website, **JAMstack** **\_is a term that describes a modern web development architecture based on **JavaScript**, **APIs**, and **Markup** (JAM).\_** The advantages of **JAMStack** are that it is an architecture designed to make the web faster, more secure, and easier to scale.
+This is the my initial proposed fully responsive vision of the new ministerial website of defence for the goverment of Zambia. The website was built using basic **HTML**, **CSS**, and **Vanilla JavaScript**. Then upstaged the website to a **JAMStack** website, **JAMstack** **\_is a term that describes a modern web development architecture based on **JavaScript**, **APIs**, and **Markup** (JAM).\_** The advantages of **JAMStack** are that it is an architecture designed to make the web faster, more secure, and easier to scale.
 
 With **JAMStack**, the entire front-end is prebuilt into highly optimized static pages and assets during a build process. This process of pre-rendering results in sites which can be served directly from a **C**ontent **D**elivery **N**etwork (CDN), reducing the cost, complexity and risk, of dynamic servers as critical infrastructure.
 
@@ -37,7 +37,13 @@ The `package.json` file is the heart of any Eleventy project. It records importa
 
 ## Here is a preview of the landing page:
 
-- ![Landing page for Ministry of Defence Zambia](./src/assets/images/screencapture-ministry-of-defence-zambia-netlify-app-2022-05-01-22_32_44.png "ministry-of-defence-zambia")
+1. ### Desktop version
+
+![Landing page for Ministry of Defence Zambia](./src/assets/images/screencapture-ministry-of-defence-zambia-netlify-app-2022-05-01-22_32_44.png "ministry-of-defence-zambia-desktop")
+
+2. ### Mobile version
+
+![Landing page for Ministry of Defence Zambia](./src/assets/images/screencapture-ministry-of-defence-zambia-netlify-app-2022-05-02-05_47_59.png "ministry-of-defence-zambia-mobile")
 
 - Link to the website -> [ministry-of-defence-zambia](https://ministry-of-defence-zambia.netlify.app/)
 
