@@ -1,7 +1,7 @@
 {
   "name": "mod-new",
   "version": "1.0.0",
-  "description": "This is my personal portfolio website built using only HTML, CSS, and a little bit of JavaScript. I then used JAMstack so the site can be served as a static site, this was achieved by using eleventy and up staging the HTML file to a Nunjucks file.",
+  "description": "This is the my initial proposed fully responsive vision of the new ministerial website of defence for the goverment of Zambia. The website was built using basic HTML, CSS, and Vanilla JavaScript. Then upstaged the website to a JAMStack website, JAMstack _is a term that describes a modern web development architecture based on JavaScript, APIs, and Markup (JAM)._ The advantages of JAMStack are that it is an architecture designed to make the web faster, more secure, and easier to scale.",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
