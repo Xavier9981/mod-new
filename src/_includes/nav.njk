@@ -21,32 +21,16 @@
         </li>
         
         <li>
-          <a {% if (currentUrl === '#') or (currentUrl === 'page.url') %} aria-current="page" {% endif %} href="#">ABOUT US<i class="htmlcss-arrow arrow"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 25 15" width="24px" fill="#ffffff"><path d="M24 24H0V0h24v24z" fill="none" opacity=".87"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/></svg></i></a>
+          <a {% if (currentUrl === '#') or (currentUrl === 'page.url') %} aria-current="page" {% endif %} href="#">DEPARTMENTS<i class="htmlcss-arrow arrow"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 25 15" width="24px" fill="#ffffff"><path d="M24 24H0V0h24v24z" fill="none" opacity=".87"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/></svg></i></a>
           
           <ul class="htmlCss-sub-menu sub-menu">
-            <li>
-              <a {% if currentUrl === '\pages\about\about-the-ministry' %} aria-current="page" {% endif %} href="\pages\about\about-the-ministry"
-                >About the Ministry</a
-              >
-            </li>
-            <li class="more">
-              <span
-                ><a href="#"
-                  >Departments<i
-                    class="arrow more-arrow"
-                  ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 25 15" width="24px" fill="#ffffff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"/></svg></i
-                ></a>
-              </span>
-              <ul class="more-sub-menu sub-menu">
-                {% for page in collections.departments %}
-                  <li>
-                    <a {% if currentUrl === page.url %} aria-current="page" {% endif %} href="{{ page.url }}">
-                      {{ page.data.title }}
-                    </a>
-                  </li>
-                {%- endfor %}
-              </ul>
-            </li>
+            {% for page in collections.departments %}
+              <li>
+                <a {% if currentUrl === page.url %} aria-current="page" {% endif %} href="{{ page.url }}">
+                  {{ page.data.title }}
+                </a>
+              </li>
+            {%- endfor %}
           </ul>
         </li>
 

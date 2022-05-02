@@ -1,4 +1,0 @@
-{
-  "tags": "departments",
-  "permalink": "/{{ page.fileSlug }}/"
-}
