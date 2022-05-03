@@ -43,6 +43,7 @@ The `package.json` file is the heart of any Eleventy project. It records importa
 
 ### Mobile version
 
+This is to show that the site is fully responsive.
 ![Landing page for Ministry of Defence Zambia](./src/assets/images/screencapture-ministry-of-defence-zambia-netlify-app-2022-05-02-05_47_59.png "ministry-of-defence-zambia-mobile")
 
 - Link to the website -> [ministry-of-defence-zambia](https://ministry-of-defence-zambia.netlify.app/)
