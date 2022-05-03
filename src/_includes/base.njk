@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="{{ meta.siteKeywords }}">
+    <meta name="description" content="{{ meta.siteDescription }}">
+    <meta name="author" content="{{ meta.authorName }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="{{meta.authorName}}" content="{{ meta.siteName }}" />
-    <title>Ministry of Defence Zambia - {{ title }}</title>
+
+    <title>{{ meta.siteName }} - {{ title }}</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/logos/favicon.ico" type="image/x-icon">
@@ -13,15 +16,9 @@
     <!-- Css link -->
     <link rel="stylesheet" href="/css/style.css" />
 
-    <!-- Normalize all css for all the different browsers -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjd.cloudflae.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-
     <!--Font Awesome CSS Links-->
     <link
-      rel="stylesheet"
+      rel="stylesheet preconnect"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       crossorigin="anonymous"
     />

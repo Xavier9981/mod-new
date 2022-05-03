@@ -7,11 +7,13 @@ tags:
   - lnsNew
 image: \assets\images\post-images\document cover.png
 imageAlt: Document cover.
-description: The Ministry of Defence (Zambia Army) (hereinafter referred to as “Contracting Authority”) wish to be engaged in the development of mixed use real estate infrastructure development and as part of this endeavour,
+description: The Ministry of Defence (Zambia Army) (hereinafter referred to as “Contracting Authority” wish to be engaged in the development of mixed use real estate infrastructure development and as part of this endeavour,
 ---
 
 <!--StartFragment-->
 
-The Ministry of Defence (Zambia Army) (hereinafter referred to as “Contracting Authority”) wish to be engaged in the development of mixed use real estate infrastructure development and as part of this endeavour, the Contracting Authority wishes to undertake the development of various projects located in Lusaka and Livingstone. [read more...](/assets/documents/ZAMBIA-ARMY-LOT-PPP-PROJECTS-ADVERT-002.docx)
+The Ministry of Defence (Zambia Army) (hereinafter referred to as “Contracting Authority” wish to be engaged in the development of mixed use real estate infrastructure development and as part of this endeavour, the Contracting Authority wishes to undertake the development of various projects located in Lusaka and Livingstone.
+
+Download the full document [here](/assets/documents/ZAMBIA-ARMY-LOT-PPP-PROJECTS-ADVERT-002.docx) to read more.
 
 <!--EndFragment-->

@@ -904,7 +904,10 @@ nav .navbar .links li a:hover {
   font-size: var(--fs-reg-17);
 }
 
-.headline-title h4 {
+.headline-title p {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-reg-18);
+  font-weight: var(--fw-900);
   margin: 0;
 }
 
