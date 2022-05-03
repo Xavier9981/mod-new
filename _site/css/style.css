@@ -1078,7 +1078,7 @@ nav .navbar .links li a:hover {
   color: var(--clr-white);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  gap: 25px;
+  gap: 20px;
   justify-content: center;
   padding: 0 20px;
   margin: auto;
@@ -1114,7 +1114,7 @@ nav .navbar .links li a:hover {
   margin-right: 20px;
 }
 
-/* SVG */
+/* SVGs */
 .social-svg {
   margin-top: 5px;
   height: 25px;
@@ -1516,7 +1516,7 @@ nav .navbar .links li a:hover {
 
   .inner-footer-one div {
     margin: 0;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
   }
 }
 
