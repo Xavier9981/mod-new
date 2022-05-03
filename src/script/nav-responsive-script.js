@@ -24,7 +24,7 @@ menuCloseBtn.onclick = function () {
 };
 
 // sidebar submenu open close js code
-let htmlcssArrow = document.querySelector(".toggle-sub-menu");
+let htmlcssArrow = document.querySelector(".toggle-sub-menu-btn");
 htmlcssArrow.onclick = function () {
   navLinks.classList.toggle("show1");
 };
