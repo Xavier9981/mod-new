@@ -1,0 +1,46 @@
+<section class="main-slide">
+  <div class="flag-line">
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+  </div>
+  <div class="slide-grid">
+    <div class="slide-show-container">
+      {% for slideImage in slides.slideImages %}
+      <div class="mySlides fade">
+        <img src="{{ slideImage.imageSrc }}" alt="{{ slideImage.imageAlt }}" />
+        <div class="caption">
+          <q><em class="figcap">{{ slideImage.imageAlt }}</em></q>
+
+          <div class="tool-tip-text">
+            <p><em class="figcap">{{ slideImage.imageAlt }}</em></p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      <a class="prev" onclick="plusSlides(-1)">&#8656;</a>
+      <a class="next" onclick="plusSlides(1)">&#8658;</a>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+    </div>
+  </div>
+  <div class="flag-line">
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+  </div>
+  <!-- main index js -->
+  <script src="/script/slides-show-script.js"></script>
+  <script src="/script/auto-slides-show-script.js"></script>
+</section>
