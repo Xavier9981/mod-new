@@ -1012,7 +1012,14 @@ nav .navbar .links li a:hover {
 }
 
 .contact-info ul {
+  list-style-type: disclosure-closed;
+  padding-inline-start: 20px;
   margin: 20px auto 40px;
+  font-size: var(--fs-reg-17);
+}
+
+.contact-info ul li {
+  margin: 4px 0;
 }
 
 /* table */
@@ -1088,26 +1095,21 @@ nav .navbar .links li a:hover {
 .inner-footer-one div ul {
   list-style-type: disclosure-closed;
   padding-inline-start: 20px;
+  font-size: var(--fs-reg-17);
 }
 
 .inner-footer-one div ul li {
-  font-size: var(--fs-reg-15);
   margin: 5px 0;
 }
 
 .inner-footer-one div ul li a {
   color: var(--clr-white);
-  font-size: var(--fs-reg-17);
   text-decoration: underline;
 }
 
 .inner-footer-one div ul li a:hover {
   color: var(--clr-orange);
   text-decoration: none;
-}
-
-.address {
-  font-size: var(--fs-reg-17);
 }
 
 .socials-icons > a:nth-child(1) {
