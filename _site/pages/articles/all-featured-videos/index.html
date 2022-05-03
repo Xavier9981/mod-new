@@ -28,13 +28,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEK9VHRWGP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-HEK9VHRWGP');
-    </script>
+    <script src="/script/google-analytics-gtag.js"></script>
   </head>
   <body> 
     <!--main header-->
@@ -205,27 +199,57 @@
       <div class="all-info-content-box--orange-box"><!-- Featured Video -->
 <div class="yt-video-container">
   <div class="iframe-panel">
-    <iframe src="https://www.youtube.com/embed/14p_vJHcjFk"></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/14p_vJHcjFk"
+      id="ytplayer"
+      allowfullscreen="true"
+      loading="lazy"
+      controls="1"
+    ></iframe>
   </div>
 </div><!-- Featured Video -->
 <div class="yt-video-container">
   <div class="iframe-panel">
-    <iframe src="https://www.youtube.com/embed/eVuJQvFFwQ0"></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/eVuJQvFFwQ0"
+      id="ytplayer"
+      allowfullscreen="true"
+      loading="lazy"
+      controls="1"
+    ></iframe>
   </div>
 </div><!-- Featured Video -->
 <div class="yt-video-container">
   <div class="iframe-panel">
-    <iframe src="https://www.youtube.com/embed/glMne74IUTg"></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/glMne74IUTg"
+      id="ytplayer"
+      allowfullscreen="true"
+      loading="lazy"
+      controls="1"
+    ></iframe>
   </div>
 </div><!-- Featured Video -->
 <div class="yt-video-container">
   <div class="iframe-panel">
-    <iframe src="https://www.youtube.com/embed/uR3K_CkABHY"></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/uR3K_CkABHY"
+      id="ytplayer"
+      allowfullscreen="true"
+      loading="lazy"
+      controls="1"
+    ></iframe>
   </div>
 </div><!-- Featured Video -->
 <div class="yt-video-container">
   <div class="iframe-panel">
-    <iframe src="https://www.youtube.com/embed/IaH3THpzWW0"></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/IaH3THpzWW0"
+      id="ytplayer"
+      allowfullscreen="true"
+      loading="lazy"
+      controls="1"
+    ></iframe>
   </div>
 </div></div>
     </div>
@@ -393,5 +417,7 @@
 
   <!-- responsive navigation js -->
   <script src="/script/nav-responsive-script.js"></script>
+
+  <!-- netlify user identity js -->
   <script src="/script/netlify-user-identity.js"></script>
 </html>

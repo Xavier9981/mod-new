@@ -1,6 +1,12 @@
 <!-- Featured Video -->
 <div class="yt-video-container">
   <div class="iframe-panel">
-    <iframe src="{{ post.data.link }}"></iframe>
+    <iframe
+      src="{{ post.data.link }}"
+      id="ytplayer"
+      allowfullscreen="true"
+      loading="lazy"
+      controls="1"
+    ></iframe>
   </div>
 </div>

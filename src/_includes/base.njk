@@ -28,13 +28,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEK9VHRWGP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-HEK9VHRWGP');
-    </script>
+    <script src="/script/google-analytics-gtag.js"></script>
   </head>
   <body> 
     {% include 'header.njk' %} 
@@ -51,5 +45,7 @@
 
   <!-- responsive navigation js -->
   <script src="/script/nav-responsive-script.js"></script>
+
+  <!-- netlify user identity js -->
   <script src="/script/netlify-user-identity.js"></script>
 </html>
