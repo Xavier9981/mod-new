@@ -929,7 +929,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .name-date-tag {
-  color: #505050;
+  color: var(--clr-gray-600);
   font-size: var(--fs-reg-15);
   font-family: var(--ff-cursive);
   text-align: center;
@@ -945,8 +945,8 @@ nav .navbar .links li:hover .js-sub-menu {
 .name-tag,
 .date-tag {
   color: var(--clr-black-100);
-  margin: 0 15px;
-  font-weight: var(--fw-400);
+  margin: 0 10px;
+  font-weight: var(--fw-500);
 }
 
 .description-paragraph {
