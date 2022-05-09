@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 
-module.exports = function (eleventyConfig) {
+module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/pages");
@@ -14,6 +15,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addPlugin(emojiReadTime, {
+    emoji: "📕",
+  });
 
   return {
     dir: {

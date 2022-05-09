@@ -19,9 +19,10 @@
   },
   "homepage": "https://github.com/Xavier9981/mod-new#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.3.3"
+    "@11ty/eleventy": "^1.0.1"
   },
   "dependencies": {
+    "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "normalize.css": "^8.0.1"
   }
 }

@@ -15,6 +15,7 @@ layout: 'base.njk'
           <div>
             <h4 class="article-title">{{ title }}</h4>
             <div class="name-date-tag">
+              <span class="read-time">{{ content | emojiReadTime }}</span>
               <span class="no-wrap"
                 >by
                 <i

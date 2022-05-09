@@ -943,7 +943,8 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .name-tag,
-.date-tag {
+.date-tag,
+.read-time {
   color: var(--clr-black-100);
   margin: 0 10px;
   font-weight: var(--fw-500);

@@ -15,6 +15,7 @@ layout: 'base.njk'
           <div>
             <h4 class="article-title">{{ title }}</h4>
             <div class="name-date-tag">
+              <span class="read-time">{{ content | emojiReadTime }}</span>
               <span class="no-wrap"
                 >by
                 <i
@@ -57,12 +58,12 @@ layout: 'base.njk'
 
           <article class="content-wrapper">{{ content | safe }}</article>
         </section>
-      </div>
-    </div>
-    <div class="btn-box--orange-box">
-      <a href="\pages\articles\all-latest-news" class="btn bg-btn--orange-box"
+      </div>    <div class="btn-box--orange-box">
+      <a href="\pages\articles\all-latest-speeches-and-press-releases" class="btn bg-btn--orange-box"
         >View more</a
       >
     </div>
+    </div>
+
   </div>
 </section>
