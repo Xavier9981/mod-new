@@ -13,7 +13,7 @@ function autoShowSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {
     slideIndex = 1;
-    console.log("count:" + slideIndex);
+    //console.log("count:" + slideIndex);
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
@@ -21,5 +21,5 @@ function autoShowSlides() {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
   setTimeout(autoShowSlides, 30000); // Change image every 30 seconds
-  console.log(slideIndex);
+  //console.log(slideIndex);
 }

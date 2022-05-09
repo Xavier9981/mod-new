@@ -8,7 +8,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/admin");
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    return DateTime.fromJSDate(dateObj)
+      .setLocale("en")
+      .toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY);
   });
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
