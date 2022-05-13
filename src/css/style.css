@@ -330,7 +330,7 @@ nav .navbar .links li a:hover,
 
 nav .navbar .links li .arrow {
   height: 100%;
-  margin-left: 10px;
+  margin-left: 5px;
   line-height: 50px;
   text-align: center;
   display: inline-block;
@@ -1393,7 +1393,7 @@ nav .navbar .links li:hover .htmlCss-sub-menu {
 
   nav .navbar .links li .arrow {
     line-height: 40px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   nav .navbar .links li {
