@@ -324,13 +324,14 @@ nav .navbar .links li a:hover,
   background: var(--clr-gray-600);
 }
 
-.links li:hover .htmlcss-arrow {
+.links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow {
   transform: rotate(180deg);
 }
 
 nav .navbar .links li .arrow {
   height: 100%;
-  margin-left: 5px;
+  margin-left: 10px;
   line-height: 50px;
   text-align: center;
   display: inline-block;
@@ -354,7 +355,8 @@ nav .navbar .links li .sub-menu {
   overflow-y: scroll;
 }
 
-nav .navbar .links li:hover .htmlCss-sub-menu {
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu {
   display: block;
   padding: 0;
 }
@@ -1393,7 +1395,7 @@ nav .navbar .links li:hover .htmlCss-sub-menu {
 
   nav .navbar .links li .arrow {
     line-height: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   nav .navbar .links li {
@@ -1420,16 +1422,24 @@ nav .navbar .links li:hover .htmlCss-sub-menu {
     border-bottom: 1px solid var(--clr-gray-600);
   }
 
-  .links li:hover .htmlcss-arrow {
+  .links li:hover .htmlcss-arrow,
+  .links li:hover .js-arrow {
     transform: rotate(0deg);
   }
 
-  .navbar .nav-links.show1 .links .htmlCss-sub-menu {
+  nav .navbar .links li:hover .htmlCss-sub-menu,
+  nav .navbar .links li:hover .js-sub-menu {
+    display: none;
+  }
+
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show3 .links .js-sub-menu {
     display: block;
     padding: 0;
   }
 
-  .navbar .nav-links.show1 .links .htmlcss-arrow {
+  .navbar .nav-links.show1 .links .htmlcss-arrow,
+  .navbar .nav-links.show3 .links .js-arrow {
     transform: rotate(180deg);
   }
 
