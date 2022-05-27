@@ -331,7 +331,7 @@ nav .navbar .links li a:hover,
 
 nav .navbar .links li .arrow {
   height: 100%;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   line-height: 50px;
   text-align: center;
   display: inline-block;
