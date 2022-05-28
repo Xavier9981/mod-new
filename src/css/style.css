@@ -976,6 +976,21 @@ nav .navbar .links li:hover .js-sub-menu {
 .bg-btn--info-card {
   color: var(--clr-white);
   background-color: var(--clr-green);
+  padding-right: 30px;
+}
+
+.bg-btn--info-card::after {
+  background-image: url(/assets/images/svg/arrow-right-solid.svg);
+  content: "";
+  height: 12px;
+  width: 12px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-left: 0.4em;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  bottom: 38px;
 }
 
 /* yt-video-container */
