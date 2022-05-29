@@ -1507,11 +1507,11 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .logo__one--main {
-    width: 45px;
+    width: 40px;
   }
 
   .logo__two--main {
-    width: 65px;
+    width: 60px;
   }
 
   .prev,
@@ -1567,6 +1567,14 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 @media screen and (max-width: 320px) {
+  .logo__one--main {
+    width: 30px;
+  }
+
+  .logo__two--main {
+    width: 40px;
+  }
+
   .mySlides {
     height: 200px;
   }
