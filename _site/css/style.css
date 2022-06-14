@@ -209,7 +209,7 @@ nav .navbar {
 .hamburger::after {
   background-color: var(--clr-white);
   height: 1.95px;
-  width: 1.35em;
+  width: 1.25em;
   border: 0;
   transition: transform 250ms ease-in-out;
 }
