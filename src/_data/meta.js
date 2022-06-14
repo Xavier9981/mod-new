@@ -4,7 +4,7 @@ module.exports = {
   url: process.env.URL || "http://localhost:8080",
   siteName: "Ministry of Defence Zambia",
   siteDescription:
-    "My extremely minimal but effective Eleventy solution for a simple multi-page site for the Ministry of Defence Zambia. with a purpose to offer Zambians fact checked infomation about defence affairs at home and abroad.",
-  siteKeywords: "military, defence, army, air force",
+    "The Ministry of Defence Zambia is an executive branch of the government of the Republic of Zambia charged withe supervising and coordinatinng all departments and functions of government directly related to national security. The soul purpose of this site is to offer Zambians fact checked infomation about defence affairs at home and abroad.",
+  siteKeywords: "Military, Defence, Army, Air force",
   authorName: "SMART Zambia Institute",
 };

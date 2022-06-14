@@ -195,14 +195,14 @@ nav .navbar {
 
 .hamburger-box {
   display: none;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
   background-color: var(--clr-white);
-  height: 2.5px;
+  height: 1.95px;
   width: 1.35em;
   border: 0;
   transition: transform 250ms ease-in-out;
@@ -215,11 +215,11 @@ nav .navbar {
 }
 
 .hamburger::before {
-  top: 19px;
+  top: 6px;
 }
 
 .hamburger::after {
-  bottom: 19px;
+  bottom: 6px;
 }
 
 .logo {
@@ -237,8 +237,9 @@ nav .navbar {
   color: var(--clr-white);
   display: inline-block;
   font-weight: var(--fw-500);
-  font-size: var(--fs-reg-15);
+  font-size: var(--fs-reg-12);
   padding-left: 100%;
+  margin: 0.55em 0;
 }
 
 .logo p span {
@@ -379,8 +380,8 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .navbar .search-box {
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
 }
 
 .navbar .search-box i {
@@ -388,7 +389,7 @@ nav .navbar .links li:hover .js-sub-menu {
   cursor: pointer;
   font-weight: var(--fw-600);
   line-height: 40px;
-  margin-top: 5px;
+  /*margin-top: 5px;*/
   position: absolute;
   text-align: center;
   transition: all 0.3s ease;
@@ -1259,7 +1260,7 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (max-width: 920px) {
   nav .navbar {
     max-width: 100%;
-    padding: 0 25px;
+    padding: 0 15px;
   }
 
   .mySlides {
@@ -1322,8 +1323,24 @@ nav .navbar .links li:hover .js-sub-menu {
     font-size: medium;
   }
 
+  .logo__one--main {
+    width: 50px;
+  }
+
+  .logo__two--main {
+    width: 85px;
+  }
+
+  nav .navbar {
+    padding: 0 25px;
+  }
+
   .navbar .search-box .input-box {
     right: calc(100% - 40px);
+  }
+
+  .navbar.showInput .search-box .input-box {
+    top: 46px;
   }
 
   .marquee {
@@ -1354,6 +1371,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .hamburger-box {
     display: flex;
+    position: relative;
   }
 
   .hamburger {
