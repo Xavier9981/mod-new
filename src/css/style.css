@@ -1184,7 +1184,7 @@ nav .navbar .links li:hover .js-sub-menu {
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  padding: 0 5px;
+  padding: 5px;
 }
 
 .inner-footer-two p {
