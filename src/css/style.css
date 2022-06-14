@@ -221,11 +221,11 @@ nav .navbar {
 }
 
 .hamburger::before {
-  top: 6px;
+  top: 5px;
 }
 
 .hamburger::after {
-  bottom: 6px;
+  bottom: 5px;
 }
 
 .logo {
