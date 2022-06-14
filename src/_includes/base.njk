@@ -23,10 +23,11 @@
     <script src="/script/google-analytics-gtag.js"></script>
   </head>
   <body> 
+    <div class="header-container">
     {% include 'header.njk' %} 
 
     {% include 'nav.njk' %}
-    
+    </div>
     <!-- main -->
     <main> 
     {{ content | safe }}

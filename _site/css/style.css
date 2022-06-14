@@ -136,6 +136,12 @@ strong {
 }
 
 /* Main-header */
+.header-container {
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 99;
+}
 .header {
   background-color: var(--clr-green);
   color: var(--clr-white);
@@ -239,7 +245,7 @@ nav .navbar {
   font-weight: var(--fw-500);
   font-size: var(--fs-reg-12);
   padding-left: 100%;
-  margin: 0.55em 0;
+  margin: 0.85em 0;
 }
 
 .logo p span {
@@ -1320,15 +1326,15 @@ nav .navbar .links li:hover .js-sub-menu {
 
 @media (max-width: 800px) {
   .main-header > div {
-    font-size: medium;
+    font-size: small;
   }
 
   .logo__one--main {
-    width: 50px;
+    width: 45px;
   }
 
   .logo__two--main {
-    width: 85px;
+    width: 75px;
   }
 
   nav .navbar {
