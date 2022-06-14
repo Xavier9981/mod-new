@@ -6,7 +6,7 @@ tags:
   - lsprAll
   - lsprNew
 image: \assets\images\post-images\president-edgar-lungu-and-wife-esther-lungu-pay-tribute-to-late-former-first-president-kenneth-kaunda.jpg
-imageAlt: president Edgar Lungu and wife Esther Lungu pay tribute to late former first president Kenneth Kaunda.
+imageAlt: President Edgar Lungu and wife Esther Lungu pay tribute to late former first president Kenneth Kaunda.
 description: Good evening, tomorrow, friday, 2nd July, 2021, is the official state funeral for his excellency, Dr Kenneth David Kaunda, first President of the Republic of Zambia who passed away on 17th June, 2021.
 ---
 
